@@ -23,7 +23,7 @@ apply plugin: 'maven'
 task createPom << {
     pom {
         project {
-            groupId 'com.sandvoxel.generitech'
+            groupId 'com.algorithmicsanonymous.forgewhitelist'
             artifactId cibasename
             version majorVersion + '.' + minorVersion + '.' + patchVersion + '.' + cibuild
         }
